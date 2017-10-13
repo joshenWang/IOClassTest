@@ -16,7 +16,7 @@ public class InputStramReader {
 
         InputStream in=new FileInputStream("d://demo.txt");
 
-        InputStreamReader inr=new InputStreamReader(in);
+        InputStreamReader inr=new InputStreamReader(in,"GBK");
 
         BufferedReader br=new BufferedReader(inr);
 
